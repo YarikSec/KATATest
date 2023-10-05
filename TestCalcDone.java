@@ -20,7 +20,7 @@ class CalcDone {
         num1 = Integer.parseInt(operands[0]);
         num2 = Integer.parseInt(operands[1]);
 
-        if (num1 > 10 || num2 > 10) {
+        if (num1 > 10 || num2 > 10 || num1 < 1 || num2 < 1) {
             throw new Exception("Числа должны быть от 1 до 10");
         }
 
